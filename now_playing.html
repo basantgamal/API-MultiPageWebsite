@@ -1,0 +1,127 @@
+<link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
+<link rel="stylesheet" href="node_modules\bootstrap-vue\dist\bootstrap-vue.css">
+<script src="node_modules\jquery\dist\jquery.js"></script>
+<script src="node_modules\axios\dist\axios.min.js"></script>
+<script src="vue.js"></script>
+<script src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
+<script src="node_modules\bootstrap-vue\dist\bootstrap-vue.js"></script>
+
+<!--html-->
+<div id="app">
+    <div :currentPage="currentPage">
+        <div class="container mt-5">
+            <div class="card">
+                <div class="card-body text-center b-0">
+                    <div class="row m-0">
+                        <div class="col-md-3">
+                            <div class="image_container"
+                                 :style="`background-image: url('https://image.tmdb.org/t/p/w500/${currentPage.poster_path}')`"></div>
+                        </div>
+                        <div class="col-md-9 image-caption">
+                                <div class="title">
+                                    <h1>title: {{currentPage.title}}</h1>
+                                </div>
+                                <p>{{currentPage.overview}}</p>
+                                <div class="btns">
+                                    <button class="btn btn-primary " @click="previousPage()" v-if="pageNumber>1"> previous</button>
+                                    <button class="btn btn-secondary" @click="nextPage()"  v-if="pageNumber!=(pages.length-1)"> Next</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--script-->
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            pages:[],
+            pageNumber:1,
+            currentPage:[]
+        },
+        methods:{
+            nextPage(){
+                this.pageNumber++;
+                axios.get(`https://api.themoviedb.org/3/movie/now_playing?api_key=505c2802f1de88a0a428ef7e821354c9&language=en-US&page=${this.pageNumber+1}`)
+                    .then(response => {
+                        this.currentPage=this.pages[this.pageNumber-1]
+                        console.log('helo2'+this.currentPage);
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+            },
+            previousPage(){
+                this.pageNumber--;
+                axios.get(`https://api.themoviedb.org/3/movie/now_playing?api_key=505c2802f1de88a0a428ef7e821354c9&language=en-US&page=${this.pageNumber+1}`)
+                    .then(response => {
+                        this.currentPage=this.pages[this.pageNumber-1]
+                        console.log(this.currentPage);
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+            },
+        },
+        mounted(){
+            axios.get(`https://api.themoviedb.org/3/movie/now_playing?api_key=505c2802f1de88a0a428ef7e821354c9&language=en-US&page=${this.pageNumber}`)
+                .then(response => {
+                    this.pages = response.data.results;
+                    this.currentPage=this.pages[this.pageNumber-1]
+                    console.log('helo1'+this.currentPage);
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
+        }
+    })
+</script>
+
+
+
+<style>
+    .b-0{
+        padding: 0;
+    }
+    .card {
+        margin: 2em 0;
+        background-color: #ededed;
+    }
+    .card span{
+        margin-right: 6px;
+    }
+    .image_container {
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .image-caption {
+        text-transform: capitalize;
+        padding: 12px;
+        background-color: white;
+    }
+
+    .title {
+        margin: 1em 0;
+    }
+
+    .image-caption h1 {
+        font-size: 20px;
+    }
+
+    .btns{
+        width:100%;
+    }
+    .btns  .btn-primary{
+        float:left;
+    }
+    .btns  .btn-secondary{
+        float: right;
+    }
+</style>

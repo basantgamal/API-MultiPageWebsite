@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/movie.html" description="&lt;link rel=&quot;stylesheet&quot; href=&quot;node_modules\bootstra..." line="0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aad56b35-7aea-4f8b-a37e-f04ef821399f" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="movies.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movies.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6672">
+              <caret line="251" column="35" selection-start-line="251" selection-start-column="35" selection-end-line="251" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>image_container</find>
+      <find>console.log</find>
+      <find>pagesCo</find>
+      <find>currentPage</find>
+      <find>filterMovies</find>
+      <find>search</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/firstapp.html" />
+        <option value="$PROJECT_DIR$/movie.html" />
+        <option value="$PROJECT_DIR$/now_playing.html" />
+        <option value="$PROJECT_DIR$/movies.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node_modules/@nuxt/opencollective/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/axios/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/alert/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/badge/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/breadcrumb/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/button-group/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/button-toolbar/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/button/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/card/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/carousel/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/collapse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/dropdown/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/embed/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/form-checkbox/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/form-file/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/form-group/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/form-input/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/form-radio/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/form-select/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/form-textarea/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/form/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/image/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/input-group/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/jumbotron/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/layout/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/link/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/list-group/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/media/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/modal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/nav/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/navbar/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/pagination-nav/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/pagination/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/popover/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/progress/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/spinner/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/table/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/tabs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/toast/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/components/tooltip/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/directives/popover/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/directives/scrollspy/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/directives/tooltip/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap-vue/src/directives/visible/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/color-convert/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/consola/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/follow-redirects/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jquery/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/node-fetch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/popper.js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/portal-vue/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/vue-functional-data-merge/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="30" />
+    <option name="y" value="27" />
+    <option name="width" value="1738" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/projects/travninja" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aad56b35-7aea-4f8b-a37e-f04ef821399f" name="Default" comment="" />
+      <created>1574165186355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574165186355</updated>
+      <workItem from="1574165187968" duration="2468000" />
+      <workItem from="1574243378097" duration="18029000" />
+      <workItem from="1574328552871" duration="31049000" />
+      <workItem from="1574511457024" duration="9938000" />
+      <workItem from="1574672895906" duration="1275000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="62759000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1125" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32946146" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/movies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="66" column="108" selection-start-line="66" selection-start-column="98" selection-end-line="66" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4410">
+          <caret line="147" column="24" lean-forward="true" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstapp.html" />
+    <entry file="file://$PROJECT_DIR$/firstapp.html" />
+    <entry file="file://$PROJECT_DIR$/movie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/now_playing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="77" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6672">
+          <caret line="251" column="35" selection-start-line="251" selection-start-column="35" selection-end-line="251" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

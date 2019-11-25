@@ -1,0 +1,134 @@
+<link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
+<link rel="stylesheet" href="node_modules\bootstrap-vue\dist\bootstrap-vue.css">
+<script src="node_modules\jquery\dist\jquery.js"></script>
+<script src="node_modules\axios\dist\axios.min.js"></script>
+<script src="vue.js"></script>
+<script src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
+<script src="node_modules\bootstrap-vue\dist\bootstrap-vue.js"></script>
+
+
+<!--html-->
+<div id="app">
+    <h1 class="head-title text-center"> Movie Data </h1>
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <!--<div class="image_container"-->
+                     <!--:style="`background-image: url('https://image.tmdb.org/t/p/w500/${movieItem.poster_path}')`"></div>-->
+                <!--<h3 >{{movieItem.title}}</h3>-->
+                <div class="row h-100">
+                    <div class="col-md-3">
+                        <div class="image_container h-100">
+                            <div   class="content h-100"
+                                   :style="`background-image: url('https://image.tmdb.org/t/p/w500/${movie.poster_path}')`">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="image-caption">
+                            <div class="title">
+                                <h3 >{{movie.title}}</h3>
+                            </div>
+
+                            <span v-for='genre in movie.genres'class="geners">
+                                <span>{{genre.name}}</span>
+                            </span>
+
+                            <p>{{movie.overview}}</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--script-->
+<script>
+    var app = new Vue({
+        'el': '#app',
+
+        data: {
+            movieId:'',
+            // movieItem:{}
+            movie:'',
+            movieGenres:[]
+        },
+
+        methods: {},
+
+        computed: {},
+
+        mounted() {
+            this.movieId = window.location.href.split('?')[1];
+            let movie = JSON.parse(localStorage.getItem('movie'));
+            axios.get(`https://api.themoviedb.org/3/movie/${this.movieId}?api_key=505c2802f1de88a0a428ef7e821354c9&language=en-US`)
+                .then(response => {
+                    // handle success
+                    this.movie = response.data;
+                    localStorage.setItem('movie', JSON.stringify(this.movie));
+                    // console.log(this.movie);
+                })
+                .catch(function (error) {
+                    // handle error
+                    console.log(error);
+                });
+        }
+
+
+    })
+</script>
+
+
+<!--style-->
+<style>
+    .head-title {
+        margin-top: 2em;
+        text-decoration: underline;
+    }
+
+    .card {
+        margin: 2em 0;
+        background-color: #ededed;
+        width:100%;
+        height: 500px;
+        /*padding: 1em;*/
+    }
+
+    .h-100{
+        height: 100%;
+    }
+
+    .image_container {
+         background-color: white;
+    }
+
+    .image_container .content{
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .image-caption {
+        text-transform: capitalize;
+        padding: 12px;
+    }
+
+    .image-caption h1 {
+        font-size: 20px;
+    }
+
+    p{
+        margin-top: 40px;
+        color: #8b8b8b;
+    }
+
+    .geners span{
+        margin-right: 10px;
+    }
+</style>
